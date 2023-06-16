@@ -54,9 +54,6 @@ For your first milestone, describe what your project is and how you plan to buil
   Passive Buzzer- It can play a variety of noises, in the clock its used as an alarm
 
 
-- Technical progress you've made so far
-- Challenges you're facing and solving in your future milestones
-- What your plan is to complete your project
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/gzErr8VK5Jg" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 
