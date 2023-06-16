@@ -50,7 +50,7 @@ For your first milestone, describe what your project is and how you plan to buil
   Thermistor- In this project, this was used to determine the temperature outside
   Diode- directs the flow of electricity in a single direction, and can maintain a constant voltage and extract signals from video waves. 
   Photoresistor- senses when there is light or there is a light change. The photoresistor in this clock is used to determine the brightness of its surroundings and adjust the brightness of the clock display.
-  Crystal oscillators oscillate a particular frequency, which controls the timing of the circuit.
+  Crystal oscillators oscillate a particular frequency, which controls the timing of the circuit.  
   Passive Buzzer- It can play a variety of noises, in the clock its used as an alarm
 
 
