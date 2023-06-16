@@ -44,20 +44,15 @@ For your first milestone, describe what your project is and how you plan to buil
 
 # Starter Project
 For my starter project, I decided to make an alarm clock, I faced many challenges as it was my first project. After I thought I was done with the whole project I realized that it was only showing the default display and I was not able to change the time or use any of the functions. But I troubleshot and I realized that most of the wires in the back were touching. Another problem came up for me, but I noticed the display was not really showing at all, and at first, I thought it was the photoresistor, but the battery just fell out. 
-For your first milestone, describe what your project is and how you plan to build it. You can include:
+
 - An explanation about the different components of your project and how they will all integrate together;
 
-   Resistors- regulate the flow of electrical currents in an electrical circuit. They are also used to provide a certain amount of voltage for a transistor. The project required a certain number of Kohms in certain places, meaning it was used to give a certain amount of voltage. 
-
-   Thermistor- In this project, this was used to determine the temperature outside
-
-   Diode- directs the flow of electricity in a single direction, and can maintain a constant voltage and extract signals from video waves. 
-
-   Photoresistor- senses when there is light or there is a light change. The photoresistor in this clock is used to determine the brightness of its surroundings and adjust the brightness of the clock display.
-
-   Crystal oscillators oscillate a particular frequency, which controls the timing of the circuit.  
-
-  Passive Buzzer- It can play a variety of noises, in the clock its used as an alarm
+  Resistors- regulate the flow of electrical currents in an electrical circuit. They are also used to provide a certain amount of voltage for a transistor. The project required a certain number of Kohms in certain places, meaning it was used to give a certain amount of voltage. 
+  Thermistor- In this project, this was used to determine the temperature outside
+  Diode- directs the flow of electricity in a single direction, and can maintain a constant voltage and extract signals from video waves. 
+  Photoresistor- senses when there is light or there is a light change. The photoresistor in this clock is used to determine the brightness of its surroundings and adjust the brightness of the clock display.
+  Crystal oscillators oscillate at a particular frequency, which controls the timing of the circuit.  
+  Passive Buzzer- It can play a variety of noises, in the clock it's used as an alarm
 
 
 
