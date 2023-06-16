@@ -43,6 +43,7 @@ Arduino Nano; Arduino is an open-source hardware and software company, project, 
 On the LED strips, there are arrows, and those are basically the direction that the electrical current flows. And I didn’t realize this so I was so confused about why my LEDs weren’t lighting up because I put all of the arrows facing towards the Arduino. After I realized this I cut my LEDs from the Arduino because it would be too much to desolder them and do all of that since I already put the wires in the heat tubes. So I moved my project onto a breadboard, then I soldered male-to-male the jumper wires to the LED strips and I put the Arduino nano into the board and attached it as such. 
 
 - What your plan is to complete your project
+  
 In order to get to  my next milestone I need to get started on coding letters onto the LEDs
 
 **Don't forget to replace the text below with the embedding for your milestone video. Go to Youtube, click Share -> Embed, and copy and paste the code to replace what's below.**
