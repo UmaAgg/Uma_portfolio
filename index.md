@@ -25,10 +25,15 @@ For your final milestone, explain the outcome of your project. Key details to in
 ## Technical details of what you've accomplished and how they contribute to the final goal
 - After my first milestone I changed my LEDs into a matrix and coded the LEDs to project words
 
--  What has been surprising about the project so far
-- Previous challenges you faced that you overcame
+## Previous challenges you faced that you overcame
+- I shorted out my Arduino Nano because I had put my power jumper wire into the ground pin.
+- In my code, I accidentally put in that the number of LEDs on each strip was 64, but after I tried the code I realized that it was wrong because the words were not able to be read. I recounted the number and it was 67.
+  
 ## What needs to be completed before your final milestone 
-- I need to move from my 
+- I need to move my wiring from the breadboard to a perf board
+- put heat wrap around the connecting jumper wires
+- find a way to make sure that the LEDs don't fall off the board, I will most likely create indentations where the LEDs will go
+- Move the wires around so that they can't be seen
 
 **Don't forget to replace the text below with the embedding for your milestone video. Go to Youtube, click Share -> Embed, and copy and paste the code to replace what's below.**
 
