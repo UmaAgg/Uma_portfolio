@@ -7,7 +7,7 @@ Replace this text with a brief description (2-3 sentences) of your project. This
 
 **Replace the BlueStamp logo below with an image of yourself and your completed project. Follow the guide [here](https://tomcam.github.io/least-github-pages/adding-images-github-pages-site.html) if you need help.**
 
-![Headstone Image](Uma-Headshot.png)(: height="50%" width="50%")
+![Headstone Image](Uma-Headshot.png){: height="50%" width="50%"}
   
 # Final Milestone
 For your final milestone, explain the outcome of your project. Key details to include are:
@@ -22,7 +22,9 @@ For your final milestone, explain the outcome of your project. Key details to in
 
 # Second Milestone
 For your second milestone, explain what you've worked on since your previous milestone. You can highlight:
-- Technical details of what you've accomplished and how they contribute to the final goal
+
+## Technical details of what you've accomplished and how they contribute to the final goal
+  
 - What has been surprising about the project so far
 - Previous challenges you faced that you overcame
 - What needs to be completed before your final milestone 
