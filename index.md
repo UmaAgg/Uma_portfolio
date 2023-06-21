@@ -84,16 +84,45 @@ Here's where you'll put images of your schematics. [Tinkercad](https://www.tinke
 Here's where you'll put your code. The syntax below places it into a block of code. Follow the guide [here]([url](https://www.markdownguide.org/extended-syntax/)) to learn how to customize it to your project needs. 
 
 ```c++
+#include <Adafruit_GFX.h>
+#include <Adafruit_NeoMatrix.h>
+#include <Adafruit_NeoPixel.h>
+#ifndef PSTR
+#define PSTR // Make Arduino Due happy
+#endif
+#define PIN 9
+
+Adafruit_NeoMatrix matrix = Adafruit_NeoMatrix(64, 7, PIN,
+  NEO_MATRIX_TOP     + NEO_MATRIX_LEFT +
+  NEO_MATRIX_ROWS + NEO_MATRIX_ZIGZAG,
+  NEO_GRB            + NEO_KHZ800);
+
+const uint16_t colors[] = {
+  matrix.Color(246, 161, 15), matrix.Color(0, 255, 0), matrix.Color(0, 0, 255) };
+
 void setup() {
-  // put your setup code here, to run once:
-  Serial.begin(9600);
-  Serial.println("Hello World!");
+  matrix.begin();
+  matrix.setTextWrap(false);
+  matrix.setBrightness(40);
+  matrix.setTextColor(colors[0]);
 }
+
+int x    = matrix.width();
+int pass = 0;
 
 void loop() {
-  // put your main code here, to run repeatedly:
-
+  matrix.fillScreen(0);
+  matrix.setCursor(x, 0);
+  matrix.print(F("hello world"));
+  if(--x < -70) {
+    x = matrix.width();
+    if(++pass >= 3) pass = 0;
+    matrix.setTextColor(colors[pass]);
+  }
+  matrix.show();
+  delay(70);
 }
+
 ```
 
 # Bill of Materials
