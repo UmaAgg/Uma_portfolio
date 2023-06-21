@@ -5,8 +5,6 @@ Replace this text with a brief description (2-3 sentences) of your project. This
 |:--:|:--:|:--:|:--:|
 | Uma A. | San Francisco University High School | Electrical Engineering | Incoming Sophmore
 
-*(https://tomcam.github.io/least-github-pages/adding-images-github-pages-site.html) if you need help.**
-
 ![Headstone Image](Uma-Headshot.png){:height="50%" width="50%"}
   
 # Final Milestone
