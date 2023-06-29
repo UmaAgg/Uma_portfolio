@@ -25,20 +25,31 @@ For your final milestone, explain the outcome of your project. Key details to in
 
 # Second Milestone
 
-## Technical details of what you've accomplished and how they contribute to the final goal
-- After my first milestone I changed my LEDs into a matrix and coded the LEDs to project words
+<iframe width="560" height="315" src="https://www.youtube.com/embed/qFt8fYEQzMg" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 
-## Previous challenges you faced that you overcame
+## Summary
+- After my first milestone I changed my LEDs into a matrix and coded the LEDs to project words
+- WS2812B LED; An LED is a  light-emitting diode is a semiconductor device that emits light when current flows through it. Electrons in the semiconductor recombine with electron holes, releasing energy in the form of photons. The color of the light is determined by the energy required for electrons to cross the band gap of the semiconductor
+- BreadBoard; A breadboard, solderless breadboard, or protoboard is a construction base used to build semi-permanent prototypes of electronic circuits. Unlike a perf board or stripboard, breadboards are reusable and do not require soldering or destruction of tracks.
+- Arduino Nano; Arduino is an open-source hardware and software company, project, and user community that designs and manufactures single-board microcontrollers and microcontroller kits for building digital devices.
+I attached the end of the first LED to the power, ground, and digital pins. I attached the power wires to the power rail on the breadboard, and the ground wires to the ground rail. Then attached a jumper wire from the power and ground rail to a 5-volt power source. I attached the Arduino Nano to the breadboard and connected jumper wires from the 5-volt and ground pins to their perspective rails. I attached the control wires from the LEDs to the digital pins and installed a code to the Arduino Nano.
+
+## Progress
+- I connected the LED strips in a matrix form because the underlying principle here is that each LED can be addressed by specifying its location in terms of rows and columns. For example, the top-left LED is addressed as (A,1) i.e., row A, column 1. This method of addressing also indicates the flow of electrical current. In order to turn LED (A,1) on, current is caused to flow from A to 1. If switches are attached to each port A to D and 1 to 4, then, to turn the top-left LED on, switches A and 1 are made to conduct. The other LEDs will not have any current flowing because either their row or column switch is non-conducting.
+- I have gotten the LEDs to display words with a new code I am using
+
+
+## Challenges Faced 
 - I shorted out my Arduino Nano because I had put my power jumper wire into the ground pin.
 - In my code, I accidentally put in that the number of LEDs on each strip was 64, but after I tried the code I realized that it was wrong because the words were not able to be read. I recounted the number and it was 67.
   
-## What needs to be completed before your final milestone 
+## Next Steps 
 - I need to move my wiring from the breadboard to a perf board
 - put heat wrap around the connecting jumper wires
 - find a way to make sure that the LEDs don't fall off the board, I will most likely create indentations where the LEDs will go
 - Move the wires around so that they can't be seen
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/qFt8fYEQzMg" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+
 
 # First Milestone
 
