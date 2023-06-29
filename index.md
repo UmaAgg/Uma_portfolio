@@ -28,7 +28,9 @@ For your final milestone, explain the outcome of your project. Key details to in
 <iframe width="560" height="315" src="https://www.youtube.com/embed/qFt8fYEQzMg" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 
 ## Summary
-- After my first milestone I changed my LEDs into a matrix and coded the LEDs to project words
+After my first milestone, I changed my LEDs into a matrix and coded the LEDs to scroll words and form the message board.
+
+### Components
 - WS2812B LED; An LED is a  light-emitting diode is a semiconductor device that emits light when current flows through it. Electrons in the semiconductor recombine with electron holes, releasing energy in the form of photons. The color of the light is determined by the energy required for electrons to cross the band gap of the semiconductor
 - BreadBoard; A breadboard, solderless breadboard, or protoboard is a construction base used to build semi-permanent prototypes of electronic circuits. Unlike a perf board or stripboard, breadboards are reusable and do not require soldering or destruction of tracks.
 - Arduino Nano; Arduino is an open-source hardware and software company, project, and user community that designs and manufactures single-board microcontrollers and microcontroller kits for building digital devices.
@@ -53,19 +55,21 @@ I attached the end of the first LED to the power, ground, and digital pins. I at
 
 # First Milestone
 
-## The different components of your project 
+<iframe width="560" height="315" src="https://www.youtube.com/embed/Z8wsoRe9H5c" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+
+## Summary
+For my main project, I am doing a LED scrolling message board. For my first milestone, I cut 6 strips of LEDs and attached them to a breadboard with an Arduino. I then found a starter code that I built off to perfectly match my LEDs and make them light up in the same pattern. 
+
+### The different components of your project 
 
 - WS2812B LED; An LED is a  light-emitting diode is a semiconductor device that emits light when current flows through it. Electrons in the semiconductor recombine with electron holes, releasing energy in the form of photons. The color of the light is determined by the energy required for electrons to cross the band gap of the semiconductor
 - BreadBoard; A breadboard, solderless breadboard, or protoboard is a construction base used to build semi-permanent prototypes of electronic circuits. Unlike a perf board or stripboard, breadboards are reusable and do not require soldering or destruction of tracks.
 - Arduino Nano; Arduino is an open-source hardware and software company, project, and user community that designs and manufactures single-board microcontrollers and microcontroller kits for building digital devices.
-
-## How they will all integrate together
-
 I attached the end of the LEDs to the power, ground, and control wires. I attached the power wires to the power rail on the breadboard, and the ground wires to the ground rail. Then attached a jumper wire from the power and ground rail to a 5-volt power source. I attached an Arduino Nano to the breadboard and connected jumper wires from the 5-volt pin and the ground pin to their perspective rails. I attached the control wires from the LEDs to the digital pins and installed a code to the Arduino Nano. 
 
 ## Progress
 
-Currently, everything is connected to a breadboard and all the LEDs light up but not in words. 
+Currently, the LEDs and the Arduino are connected to a breadboard in the correct and all the LEDs light up but not in words. 
 
 ## Challenges 
 
@@ -73,13 +77,14 @@ On the LED strips, there are arrows, and those are in the direction that the ele
 
 ## What your plan is to complete your project
   
-- For my second milestone -  write code for scrolling words and attach it to a perf board
+For my second milestone, I have to write code for scrolling words and attach it to a perf board. 
 
-
-<iframe width="560" height="315" src="https://www.youtube.com/embed/Z8wsoRe9H5c" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 
 # Starter Project
-For my starter project I decided to make an alarm clock.   
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/gzErr8VK5Jg" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+
+For my starter project, I decided to make an alarm clock.   
 
 ## Project components and their purpose 
 
@@ -94,8 +99,6 @@ For my starter project I decided to make an alarm clock.
 
 I faced many challenges as it was my first project. After I thought I was done with the whole project I realized that it was only showing the default display and I was not able to change the time or use any of the functions. But I troubleshot and I realized that most of the wires in the back were touching. Another problem came up for me, but I noticed the display was not really showing at all, and at first, I thought it was the photoresistor, but the battery just fell out.
 
-
-<iframe width="560" height="315" src="https://www.youtube.com/embed/gzErr8VK5Jg" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 
 # Schematics 
 <!-- 
