@@ -16,14 +16,17 @@ Replace this text with a brief description (2-3 sentences) of your project. This
 Since my last milestone, I have attached my LED matrix onto a wood board, put brackets on all sides, and created a hole to hide the wires in. I also rewired the LEDs together because the other ones were too long and fell off. 
 
 ## What your biggest challenges and triumphs were at BSE
+I think one of my biggest challenges was working on the code and the LEDs. Towards the beggining of my project after I wired everything together and I found a code that worked but the LEDs were still not turnign on. And later I realized that the arrows on the LED strips were facing the wrong way. Then towards the end of my project my LEDs were not working, and I learned that there were too many LEDs for the RAM, so I had to get ride of one line of LEDs.  
 
 ## A summary of key topics you learned about
+-The underlying principle here is that each LED can be addressed by specifying its location in terms of rows and columns. For example, the top-left LED is addressed as (A,1) i.e., row A, column 1. This method of addressing also indicates the flow of electrical current. In order to turn LED (A,1) on, current is caused to flow from A to 1. If switches are attached to each port A to D and 1 to 4, then, to turn the top-left LED on, switches A and 1 are made to conduct. The other LEDs will not have any current flowing because either their row or column switch is non-conducting.
+- I learned that the reason my 9th LED strip wasn’t working was because of the RAM since it wasn’t enough. RAM (from Random-Access Memory) in microcontroller-based systems is a volatile memory used to store temporary data such as the system's firmware variables.
+- I learned that you can add to resistors together to make a resistor with more Ohms, rx=r1+r2
+- I learned that you have to check everything if something doesn’t work, don't just focus on one thing. One of my strips wasn’t turning on today and I thought it was because of the code or the wires were in the wrong spots. But after a while rewriting codes I realized that the LED strip was going the wrong way. 
+
 
 ## What you hope to learn in the future after everything you've learned at BSE
-
-
-**Don't forget to replace the text below with the embedding for your milestone video. Go to Youtube, click Share -> Embed, and copy and paste the code to replace what's below.**
-
+I hope to learn how to properly create code instead of finding somethign online to use. 
 
 
 # Second Milestone
@@ -160,7 +163,7 @@ Don't forget to place the link of where to buy each component inside the quotati
 | Arduino Nano | The Arduino Nano is used for sending data to the LEDs and it also acts as a power source | $24.90 | <a href="https://store-usa.arduino.cc/products/arduino-nano?srsltid=AR57-fB897fUGiV3Y88hVBM1QZPCgGk5lbLzOACaRI2zxBV7XU1Mtc331yo"> Link </a> |
 | WS2812B LED | It is used to display the text | $16.49 | <a href="https://www.btf-lighting.com/products/ws2812b-eco-led-pixel-strip?variant=39930733691064"> Link </a> |
 | Perf Board | It is used to connect all the parts together | $12.39 | <a href="https://www.amazon.com/Double-Sided-Protoboard-Prototyping-9X15CM/dp/B07HFCDFWT/ref=sr_1_2_sspa?hvadid=410019982797&hvdev=c&hvlocphy=9061320&hvnetw=g&hvqmt=b&hvrand=15678464758755980440&hvtargid=kwd-65031822062&hydadcr=955_1012856253&keywords=prototype+perfboard&qid=1688062435&sr=8-2-spons&sp_csd=d2lkZ2V0TmFtZT1zcF9hdGY&psc=1"> Link </a> |
-| Wood | What the item is used for | $34.83 | <a href="https://www.homedepot.com/p/Handprint-Sande-Plywood-Common-3-4-in-x-2-ft-x-4-ft-Actual-0-709-in-x-23-75-in-x-47-75-in-103095/202093792"> Link </a> |
-| Bracket | What the item is used for | $37.93 | <a href="https://www.homedepot.com/p/Everbilt-2-in-x-96-in-Aluminum-Angle-with-1-16-in-Thick-802607/204273998"> Link </a> |
-| Electrical Tape | What the item is used for | $6.98 | <a href="https://www.homedepot.com/p/3M-Scotch-3-4-in-x-66-ft-Electrical-Tape-4218-BA-40/100130843"> Link </a> |
+| Wood | I stuck the LEDs on the board so you can properly read the board and it looks clean | $34.83 | <a href="https://www.homedepot.com/p/Handprint-Sande-Plywood-Common-3-4-in-x-2-ft-x-4-ft-Actual-0-709-in-x-23-75-in-x-47-75-in-103095/202093792"> Link </a> |
+| Bracket | I used this to make the project to look cleaner and to hide the wires | $37.93 | <a href="https://www.homedepot.com/p/Everbilt-2-in-x-96-in-Aluminum-Angle-with-1-16-in-Thick-802607/204273998"> Link </a> |
+| Electrical Tape | I used this to make sure nothing shorts  | $6.98 | <a href="https://www.homedepot.com/p/3M-Scotch-3-4-in-x-66-ft-Electrical-Tape-4218-BA-40/100130843"> Link </a> |
 | Wires | What the item is used for | $Price | <a href="https://www.amazon.com/Arduino-A000066-ARDUINO-UNO-R3/dp/B008GRTSV6/"> Link </a> |
