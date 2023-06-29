@@ -152,18 +152,19 @@ void loop() {
 ```
 
 # Bill of Materials
-  
 Here's where you'll list the parts in your project. To add more rows, just copy and paste the example rows below.
 Don't forget to place the link of where to buy each component inside the quotation marks in the corresponding row after href =. Follow the guide [here]([url](https://www.markdownguide.org/extended-syntax/)) to learn how to customize this to your project needs. 
 
 | **Part** | **Note** | **Price** | **Link** |
-| Item Name | What the item is used for | $Price |<a href="<a href="https://www.amazon.com/Arduino-A000066-ARDUINO-UNO-R3/dp/B008GRTSV6/"> Link </a>"> Link </a>|
-| Arduino Nano| This was used to help output my code and as a power source |$24.90 |<a href="<a href="https://www.amazon.com/Arduino-A000066-ARDUINO-UNO-R3/dp/B008GRTSV6/"> Link </a>"> Link </a>|
 |:--:|:--:|:--:|:--:|
-| Item Name | What the item is used for | $Price | <a href="https://www.amazon.com/Arduino-A000066-ARDUINO-UNO-R3/dp/B008GRTSV6/"> Link </a> |
-|:--:|:--:|:--:|:--:|
-| Item Name | What the item is used for | $Price | <a href="https://www.amazon.com/Arduino-A000066-ARDUINO-UNO-R3/dp/B008GRTSV6/"> Link </a> |
-|:--:|:--:|:--:|:--:|
+| Arduino Nano | The Arduino Nano is used for sending data to the LEDs and it also acts as a power source | $24.90 | <a href="https://store-usa.arduino.cc/products/arduino-nano?srsltid=AR57-fB897fUGiV3Y88hVBM1QZPCgGk5lbLzOACaRI2zxBV7XU1Mtc331yo"> Link </a> |
+| WS2812B LED | It is used to display the text | $16.49 | <a href="https://www.btf-lighting.com/products/ws2812b-eco-led-pixel-strip?variant=39930733691064"> Link </a> |
+| Perf Board | It is used to connect all the parts together | $12.39 | <a href="https://www.amazon.com/Double-Sided-Protoboard-Prototyping-9X15CM/dp/B07HFCDFWT/ref=sr_1_2_sspa?hvadid=410019982797&hvdev=c&hvlocphy=9061320&hvnetw=g&hvqmt=b&hvrand=15678464758755980440&hvtargid=kwd-65031822062&hydadcr=955_1012856253&keywords=prototype+perfboard&qid=1688062435&sr=8-2-spons&sp_csd=d2lkZ2V0TmFtZT1zcF9hdGY&psc=1"> Link </a> |
+| Wood | What the item is used for | $34.83 | <a href="https://www.homedepot.com/p/Handprint-Sande-Plywood-Common-3-4-in-x-2-ft-x-4-ft-Actual-0-709-in-x-23-75-in-x-47-75-in-103095/202093792"> Link </a> |
+| Bracket | What the item is used for | $37.93 | <a href="https://www.homedepot.com/p/Everbilt-2-in-x-96-in-Aluminum-Angle-with-1-16-in-Thick-802607/204273998"> Link </a> |
+| Electrical Tape | What the item is used for | $6.98 | <a href="https://www.homedepot.com/p/3M-Scotch-3-4-in-x-66-ft-Electrical-Tape-4218-BA-40/100130843"> Link </a> |
+| Wires | What the item is used for | $Price | <a href="https://www.amazon.com/Arduino-A000066-ARDUINO-UNO-R3/dp/B008GRTSV6/"> Link </a> |
+
 
 # Other Resources/Examples
 One of the best parts about Github is that you can view how other people set up their own work. Here are some past BSE portfolios that are awesome examples. You can view how they set up their portfolio, and you can view their index.md files to understand how they implemented different portfolio components.
