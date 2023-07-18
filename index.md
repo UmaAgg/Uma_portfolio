@@ -9,7 +9,7 @@ For my project I decided to create the LED scrolling message boardReplace this t
 
 ![Headstone Image](Uma-Headshot.png){:height="50%" width="50%"}
   
-![Uma-Project](https://github.com/UmaAgg/Uma_portfolio/assets/136506715/efb3ff9f-e179-47bc-b245-d130dcb6a1e9) {:height="50%" width="50%"}
+![Uma-Project](https://github.com/UmaAgg/Uma_portfolio/assets/136506715/efb3ff9f-e179-47bc-b245-d130dcb6a1e9){:height="50%" width="50%"}
 
 
 # Final Milestone
@@ -57,7 +57,7 @@ I attached the end of the first LED to the power, ground, and digital pins. I at
 - I have gotten the LEDs to display words with a new code I am using
 
 
-## Challenges Faced 
+## Challenges  
 - I shorted out my Arduino Nano because I had put my power jumper wire into the ground pin.
 - In my code, I accidentally put in that the number of LEDs on each strip was 64, but after I tried the code I realized that it was wrong because the words were not able to be read. I recounted the number and it was 67.
   
@@ -91,7 +91,7 @@ Currently, the LEDs and the Arduino are connected to a breadboard in the correct
 
 On the LED strips, there are arrows, and those are in the direction that the electrical current flows. And I didn’t realize this so I was so confused about why my LEDs weren’t lighting up because I put all of the arrows facing towards the Arduino. After I realized this I cut my LEDs from the Arduino because it would be too much to desolder them and do all of that since I already put the wires in the heat tubes. So I moved my project onto a breadboard. 
 
-## What your plan is to complete your project
+## Next Steps
   
 For my second milestone, I have to write code for scrolling words and attach it to a perf board. 
 
