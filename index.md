@@ -7,8 +7,8 @@ For my project I decided to create the LED scrolling message boardReplace this t
 |:--:|:--:|:--:|:--:|
 | Uma A. | San Francisco University High School | Electrical Engineering | Incoming Sophmore
 
-![Headstone Image](Uma-Headshot.png){:height="50%" width="50%"}
-![Uma-Project](https://github.com/UmaAgg/Uma_portfolio/assets/136506715/efb3ff9f-e179-47bc-b245-d130dcb6a1e9){:height="50%" width="50%"}
+![Headstone Image](Uma-Headshot.png){:height="40%" width="40%"}
+![Uma-Project](https://github.com/UmaAgg/Uma_portfolio/assets/136506715/efb3ff9f-e179-47bc-b245-d130dcb6a1e9){:height="40%" width="40%"}
 
 
 # Final Milestone
