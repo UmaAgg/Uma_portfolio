@@ -1,6 +1,6 @@
 # LED Scrolling Message Board
 <!-- 
-Replace this text with a brief description (2-3 sentences) of your project. This description should draw the reader in and make them interested in what you've built. You can include what the biggest challenges, takeaways, and triumphs from completing the project were. As you complete your portfolio, remember your audience is less familiar than you are with all that your project entails!
+For my project I decided to create the LED scrolling message boardReplace this text with a brief description (2-3 sentences) of your project. This description should draw the reader in and make them interested in what you've built. You can include what the biggest challenges, takeaways, and triumphs from completing the project were. As you complete your portfolio, remember your audience is less familiar than you are with all that your project entails!
 -->
 
 | **Engineer** | **School** | **Area of Interest** | **Grade** |
@@ -9,11 +9,31 @@ Replace this text with a brief description (2-3 sentences) of your project. This
 
 ![Headstone Image](Uma-Headshot.png){:height="50%" width="50%"}
   
+
+
 # Final Milestone
+
 <iframe width="560" height="315" src="https://www.youtube.com/embed/F7M7imOVGug" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 
-## What you've accomplished since your previous milestone
+## Summary
 Since my last milestone, I have attached my LED matrix onto a wood board, put brackets on all sides, and created a hole to hide the wires in. I rewired the LEDs together because the other ones were too long and fell off. I also attached a photo resistor to my project, so that if there is a lot of light then the LED's will be brighter and if there is not a lot of light then the brightness will go down. 
+
+## Components
+- WS2812B LED; An LED is a  light-emitting diode is a semiconductor device that emits light when current flows through it. Electrons in the semiconductor recombine with electron holes, releasing energy in the form of photons. The color of the light is determined by the energy required for electrons to cross the band gap of the semiconductor
+- BreadBoard; A breadboard, solderless breadboard, or protoboard is a construction base used to build semi-permanent prototypes of electronic circuits. Unlike a perf board or stripboard, breadboards are reusable and do not require soldering or destruction of tracks.
+- Arduino Nano; Arduino is an open-source hardware and software company, project, and user community that designs and manufactures single-board microcontrollers and microcontroller kits for building digital devices.
+- Photoresistor; The components made of semiconductors. A photoresistor is sensitive to light. Its resistance decreases when lighting increases. Photoresistors have multiple uses, for example, automatic door opening.
+- Resistors; A passive two-terminal electrical component that implements electrical resistance as a circuit element
+
+I attached the end of the first LED to the power, ground, and digital pins. I attached the power wires to the power rail on the breadboard, and the ground wires to the ground rail. Then attached a jumper wire from the power and ground rail to a 5-volt power source. I attached the Arduino Nano to the breadboard and connected jumper wires from the 5-volt and ground pins to their respective rails. I attached the control wires from the LEDs to the digital pins and installed a code to the Arduino Nano. I then added the photoeresistor and added more code. 
+
+## Progress
+-
+
+
+## Challenges Faced 
+- I had a hard time attaching the photoresistor to the board, because I had configured it on a breadboard
+- It was hard for me to incorperate the photoresistor into my code. I had created a code previously just for one LED strip with the photoresistor and I tried to move that to my original code and combine them to work. After I attempted to combine them the LEDs would not turn on, so I had to look closely into my code.
 
 ## What your biggest challenges and triumphs were at BSE
 I think one of my biggest challenges was working on the code and the LEDs. I have not had a lot of coding expirience, and this was my first time coding something myslelf. Towards the beggining of my project after I wired everything together and I found a code that worked but the LEDs were still not turnign on. And later I realized that the arrows on the LED strips were facing the wrong way. Then towards the end of my project my LEDs were not working, and I learned that there were too many LEDs for the RAM, so I had to get ride of one line of LEDs.  
@@ -25,8 +45,6 @@ I think one of my biggest challenges was working on the code and the LEDs. I hav
 - I learned that you have to check everything if something doesn’t work, don't just focus on one thing. One of my strips wasn’t turning on today and I thought it was because of the code or the wires were in the wrong spots. But after a while rewriting codes I realized that the LED strip was going the wrong way.
 - If there is higher light then there are more free electrons which means there is lower resistance but when there is less light there are less free electrons that means that there is higher resistance 
 - Assume the current is constant lower resistance is  less voltage and higher resistance is more voltage
-
-
 
 ## What you hope to learn in the future after everything you've learned at BSE
 I hope to learn how to properly create code instead of finding somethign online to use. I also learned what each individual piece of my project does and how they all work together. 
@@ -43,7 +61,8 @@ After my first milestone, I changed my LEDs into a matrix and coded the LEDs to 
 - WS2812B LED; An LED is a  light-emitting diode is a semiconductor device that emits light when current flows through it. Electrons in the semiconductor recombine with electron holes, releasing energy in the form of photons. The color of the light is determined by the energy required for electrons to cross the band gap of the semiconductor
 - BreadBoard; A breadboard, solderless breadboard, or protoboard is a construction base used to build semi-permanent prototypes of electronic circuits. Unlike a perf board or stripboard, breadboards are reusable and do not require soldering or destruction of tracks.
 - Arduino Nano; Arduino is an open-source hardware and software company, project, and user community that designs and manufactures single-board microcontrollers and microcontroller kits for building digital devices.
-I attached the end of the first LED to the power, ground, and digital pins. I attached the power wires to the power rail on the breadboard, and the ground wires to the ground rail. Then attached a jumper wire from the power and ground rail to a 5-volt power source. I attached the Arduino Nano to the breadboard and connected jumper wires from the 5-volt and ground pins to their perspective rails. I attached the control wires from the LEDs to the digital pins and installed a code to the Arduino Nano.
+
+I attached the end of the first LED to the power, ground, and digital pins. I attached the power wires to the power rail on the breadboard, and the ground wires to the ground rail. Then attached a jumper wire from the power and ground rail to a 5-volt power source. I attached the Arduino Nano to the breadboard and connected jumper wires from the 5-volt and ground pins to their respective rails. I attached the control wires from the LEDs to the digital pins and installed a code to the Arduino Nano.
 
 ## Progress
 - I connected the LED strips in a matrix form because the underlying principle here is that each LED can be addressed by specifying its location in terms of rows and columns. For example, the top-left LED is addressed as (A,1) i.e., row A, column 1. This method of addressing also indicates the flow of electrical current. In order to turn LED (A,1) on, current is caused to flow from A to 1. If switches are attached to each port A to D and 1 to 4, then, to turn the top-left LED on, switches A and 1 are made to conduct. The other LEDs will not have any current flowing because either their row or column switch is non-conducting.
