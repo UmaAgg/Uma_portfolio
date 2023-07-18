@@ -16,20 +16,19 @@ For my project I decided to create the LED scrolling message boardReplace this t
 <iframe width="560" height="315" src="https://www.youtube.com/embed/F7M7imOVGug" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 
 ## Summary
-Since my last milestone, I have attached my LED matrix onto a wood board, put brackets on all sides, and created a hole to hide the wires in. I rewired the LEDs together because the other ones were too long and fell off. I also attached a photo resistor to my project, so that if there is a lot of light then the LED's will be brighter and if there is not a lot of light then the brightness will go down. 
 
-## Components
+
+### Components
 - WS2812B LED; An LED is a  light-emitting diode is a semiconductor device that emits light when current flows through it. Electrons in the semiconductor recombine with electron holes, releasing energy in the form of photons. The color of the light is determined by the energy required for electrons to cross the band gap of the semiconductor
 - BreadBoard; A breadboard, solderless breadboard, or protoboard is a construction base used to build semi-permanent prototypes of electronic circuits. Unlike a perf board or stripboard, breadboards are reusable and do not require soldering or destruction of tracks.
 - Arduino Nano; Arduino is an open-source hardware and software company, project, and user community that designs and manufactures single-board microcontrollers and microcontroller kits for building digital devices.
 - Photoresistor; The components made of semiconductors. A photoresistor is sensitive to light. Its resistance decreases when lighting increases. Photoresistors have multiple uses, for example, automatic door opening.
 - Resistors; A passive two-terminal electrical component that implements electrical resistance as a circuit element
 
-I attached the end of the first LED to the power, ground, and digital pins. I attached the power wires to the power rail on the breadboard, and the ground wires to the ground rail. Then attached a jumper wire from the power and ground rail to a 5-volt power source. I attached the Arduino Nano to the breadboard and connected jumper wires from the 5-volt and ground pins to their respective rails. I attached the control wires from the LEDs to the digital pins and installed a code to the Arduino Nano. I then added the photoeresistor and added more code. 
+I attached the end of the first LED to the power, ground, and digital pins. I attached the power wires to the power rail on the breadboard, and the ground wires to the ground rail. Then attached a jumper wire from the power and ground rail to a 5-volt power source. I attached the Arduino Nano to the breadboard and connected jumper wires from the 5-volt and ground pins to their respective rails. I attached the control wires from the LEDs to the digital pins and installed a code to the Arduino Nano. I then added the photoresistor and added more code. 
 
 ## Progress
--
-
+-Since my last milestone, I have attached my LED matrix onto a wood board, put brackets on all sides, and created a hole to hide the wires in. I rewired the LEDs together because the other ones were too long and fell off. I also attached a photoresistor to my project, so that if there is a lot of light, the LEDs will be brighter, and if there is not, then the brightness will go down. 
 
 ## Challenges Faced 
 - I had a hard time attaching the photoresistor to the board, because I had configured it on a breadboard
