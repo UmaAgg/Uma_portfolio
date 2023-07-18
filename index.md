@@ -13,20 +13,23 @@ Replace this text with a brief description (2-3 sentences) of your project. This
 <iframe width="560" height="315" src="https://www.youtube.com/embed/F7M7imOVGug" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 
 ## What you've accomplished since your previous milestone
-Since my last milestone, I have attached my LED matrix onto a wood board, put brackets on all sides, and created a hole to hide the wires in. I rewired the LEDs together because the other ones were too long and fell off. I also attached a photo resistor to my project, so that if there is not a lot of light then the LED's will be brighter. 
+Since my last milestone, I have attached my LED matrix onto a wood board, put brackets on all sides, and created a hole to hide the wires in. I rewired the LEDs together because the other ones were too long and fell off. I also attached a photo resistor to my project, so that if there is a lot of light then the LED's will be brighter and if there is not a lot of light then the brightness will go down. 
 
 ## What your biggest challenges and triumphs were at BSE
-I think one of my biggest challenges was working on the code and the LEDs. Towards the beggining of my project after I wired everything together and I found a code that worked but the LEDs were still not turnign on. And later I realized that the arrows on the LED strips were facing the wrong way. Then towards the end of my project my LEDs were not working, and I learned that there were too many LEDs for the RAM, so I had to get ride of one line of LEDs.  
+I think one of my biggest challenges was working on the code and the LEDs. I have not had a lot of coding expirience, and this was my first time coding something myslelf. Towards the beggining of my project after I wired everything together and I found a code that worked but the LEDs were still not turnign on. And later I realized that the arrows on the LED strips were facing the wrong way. Then towards the end of my project my LEDs were not working, and I learned that there were too many LEDs for the RAM, so I had to get ride of one line of LEDs.  
 
 ## A summary of key topics you learned about
 -The underlying principle here is that each LED can be addressed by specifying its location in terms of rows and columns. For example, the top-left LED is addressed as (A,1) i.e., row A, column 1. This method of addressing also indicates the flow of electrical current. In order to turn LED (A,1) on, current is caused to flow from A to 1. If switches are attached to each port A to D and 1 to 4, then, to turn the top-left LED on, switches A and 1 are made to conduct. The other LEDs will not have any current flowing because either their row or column switch is non-conducting.
 - I learned that the reason my 9th LED strip wasn’t working was because of the RAM since it wasn’t enough. RAM (from Random-Access Memory) in microcontroller-based systems is a volatile memory used to store temporary data such as the system's firmware variables.
 - I learned that you can add to resistors together to make a resistor with more Ohms, rx=r1+r2
-- I learned that you have to check everything if something doesn’t work, don't just focus on one thing. One of my strips wasn’t turning on today and I thought it was because of the code or the wires were in the wrong spots. But after a while rewriting codes I realized that the LED strip was going the wrong way. 
+- I learned that you have to check everything if something doesn’t work, don't just focus on one thing. One of my strips wasn’t turning on today and I thought it was because of the code or the wires were in the wrong spots. But after a while rewriting codes I realized that the LED strip was going the wrong way.
+- If there is higher light then there are more free electrons which means there is lower resistance but when there is less light there are less free electrons that means that there is higher resistance 
+- Assume the current is constant lower resistance is  less voltage and higher resistance is more voltage
+
 
 
 ## What you hope to learn in the future after everything you've learned at BSE
-I hope to learn how to properly create code instead of finding somethign online to use. 
+I hope to learn how to properly create code instead of finding somethign online to use. I also learned what each individual piece of my project does and how they all work together. 
 
 
 # Second Milestone
