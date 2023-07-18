@@ -76,11 +76,12 @@ I attached the end of the first LED to the power, ground, and digital pins. I at
 ## Summary
 For my main project, I am doing a LED scrolling message board. For my first milestone, I cut 6 strips of LEDs and attached them to a breadboard with an Arduino. I then found a starter code that I built off to perfectly match my LEDs and make them light up in the same pattern. 
 
-### The different components of your project 
+### Components Used
 
 - WS2812B LED; An LED is a  light-emitting diode is a semiconductor device that emits light when current flows through it. Electrons in the semiconductor recombine with electron holes, releasing energy in the form of photons. The color of the light is determined by the energy required for electrons to cross the band gap of the semiconductor
 - BreadBoard; A breadboard, solderless breadboard, or protoboard is a construction base used to build semi-permanent prototypes of electronic circuits. Unlike a perf board or stripboard, breadboards are reusable and do not require soldering or destruction of tracks.
 - Arduino Nano; Arduino is an open-source hardware and software company, project, and user community that designs and manufactures single-board microcontrollers and microcontroller kits for building digital devices.
+  
 I attached the end of the LEDs to the power, ground, and control wires. I attached the power wires to the power rail on the breadboard, and the ground wires to the ground rail. Then attached a jumper wire from the power and ground rail to a 5-volt power source. I attached an Arduino Nano to the breadboard and connected jumper wires from the 5-volt pin and the ground pin to their perspective rails. I attached the control wires from the LEDs to the digital pins and installed a code to the Arduino Nano. 
 
 ## Progress
@@ -102,7 +103,7 @@ For my second milestone, I have to write code for scrolling words and attach it 
 
 For my starter project, I decided to make an alarm clock.   
 
-## Project components and their purpose 
+## Components Used
 
 - Resistors- regulate the flow of electrical currents in an electrical circuit. They are also used to provide a certain amount of voltage for a transistor. The project required a certain number of Kohms in certain places, meaning it was used to give a certain amount of voltage. 
 - Thermistor- In this project, this was used to determine the temperature outside
