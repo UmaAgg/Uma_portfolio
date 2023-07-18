@@ -9,11 +9,12 @@ For my project I decided to create the LED scrolling message boardReplace this t
 
 ![Headstone Image](Uma-Headshot.png){:height="50%" width="50%"}
   
+![Uma-Project](https://github.com/UmaAgg/Uma_portfolio/assets/136506715/efb3ff9f-e179-47bc-b245-d130dcb6a1e9) 
 
 
 # Final Milestone
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/F7M7imOVGug" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/BWzEi06VgdA" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 
 ## Summary
 I stuck the LEDs to a wood board and attached metal brackets to the sides, and I added a photoresistor.  
