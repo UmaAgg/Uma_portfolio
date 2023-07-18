@@ -13,7 +13,7 @@ Replace this text with a brief description (2-3 sentences) of your project. This
 <iframe width="560" height="315" src="https://www.youtube.com/embed/F7M7imOVGug" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 
 ## What you've accomplished since your previous milestone
-Since my last milestone, I have attached my LED matrix onto a wood board, put brackets on all sides, and created a hole to hide the wires in. I also rewired the LEDs together because the other ones were too long and fell off. 
+Since my last milestone, I have attached my LED matrix onto a wood board, put brackets on all sides, and created a hole to hide the wires in. I rewired the LEDs together because the other ones were too long and fell off. I also attached a photo resistor to my project, so that if there is not a lot of light then the LED's will be brighter. 
 
 ## What your biggest challenges and triumphs were at BSE
 I think one of my biggest challenges was working on the code and the LEDs. Towards the beggining of my project after I wired everything together and I found a code that worked but the LEDs were still not turnign on. And later I realized that the arrows on the LED strips were facing the wrong way. Then towards the end of my project my LEDs were not working, and I learned that there were too many LEDs for the RAM, so I had to get ride of one line of LEDs.  
